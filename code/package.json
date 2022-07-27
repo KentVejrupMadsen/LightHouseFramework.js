@@ -1,0 +1,20 @@
+{
+  "name": "lighthouse.framework.js",
+  "version": "1.0.0",
+  "description": "contains the code for the prototype",
+  "main": "main.js",
+  "scripts":
+  {
+    "test": "entryTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KentVejrupMadsen/LightHouseFramework.js.git"
+  },
+  "author": "Kent vejrup Madsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KentVejrupMadsen/LightHouseFramework.js/issues"
+  },
+  "homepage": "https://github.com/KentVejrupMadsen/LightHouseFramework.js#readme"
+}
