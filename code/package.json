@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "contains the code for the prototype",
   "main": "main.js",
-  "scripts":
-  {
+  "scripts": {
     "test": "entryTest.js"
   },
   "repository": {
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KentVejrupMadsen/LightHouseFramework.js/issues"
   },
-  "homepage": "https://github.com/KentVejrupMadsen/LightHouseFramework.js#readme"
+  "homepage": "https://github.com/KentVejrupMadsen/LightHouseFramework.js#readme",
+  "devDependencies": {
+    "grunt": "^1.5.3"
+  }
 }
