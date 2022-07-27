@@ -4,8 +4,19 @@ module.exports=
     class BaseVector2D
         extends BaseVector1D
     {
-        constructor( x, y )
+        constructor( X, Y )
         {
-            super( x );
+            super( X );
+            this.y = Y;
+        }
+
+        get Y()
+        {
+            return this.y;
+        }
+
+        set Y( value )
+        {
+            this.y = value;
         }
     }

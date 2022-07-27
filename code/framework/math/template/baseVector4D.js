@@ -4,9 +4,19 @@ module.exports=
     class BaseVector4D
         extends BaseVector3D
     {
-        constructor( x, y, z, w )
+        constructor( x, y, z, W )
         {
             super( x, y, z );
+            this.w = W;
+        }
 
+        get W()
+        {
+            return this.w;
+        }
+
+        set W(value)
+        {
+            this.w = value;
         }
     }
